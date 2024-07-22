@@ -1,7 +1,7 @@
 # WPS-SAM: Towards Weakly-Supervised Part Segmentation with Foundation Models
 
-Official PyTorch implementation of PPT from our paper: [WPS-SAM: Towards Weakly-Supervised Part Segmentation with Foundation Models](https://arxiv.org/abs/2407.10131) **ECCV 2024**.
-Xinjian Wu, Ruisong Zhang, Jie Qin, Shijie Ma, Cheng-Lin Liu. ECCV 2024
+Official PyTorch implementation of PPT from our paper: [WPS-SAM: Towards Weakly-Supervised Part Segmentation with Foundation Models](https://arxiv.org/abs/2407.10131). **ECCV 2024**.
+Xinjian Wu, Ruisong Zhang, Jie Qin, Shijie Ma, Cheng-Lin Liu.
 
 ## What is WPS-SAM
 
