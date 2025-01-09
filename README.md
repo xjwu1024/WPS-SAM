@@ -18,7 +18,10 @@ Weakly-supervised Part Segmentation (WPS) setting (as shown in the figure above)
 
 ```
  - python >= 3.8
- - pytorch >= 1.12.1 
+ - pytorch >= 1.12.1
+ - lightning
+ - segmentation_models_pytorch
+ - segment_anything 
 ```
 
 Clone the repository locally:
