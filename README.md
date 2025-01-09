@@ -12,6 +12,20 @@ Weakly-supervised Part Segmentation (WPS) setting (as shown in the figure above)
 
 ![image](https://github.com/user-attachments/assets/c89ef9b2-aa07-4558-8ff0-e31b227f744d)
 
+## Usage
+
+### Requirements
+
+```
+ - python >= 3.8
+ - pytorch >= 1.12.1 
+```
+
+Clone the repository locally:
+
+```
+git clone https://github.com/xjwu1024/WPS-SAM.git
+```
 
 
 
