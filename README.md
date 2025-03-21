@@ -39,42 +39,16 @@ Download and extract PartImageNet dataset from [here](https://huggingface.co/dat
 ```
 /path/to/PartImageNet/
   annotations/
-    test/
-      img1.json
-      img1.png
-      ...
-      test.json
-    test_whole/
-      img1.png
-      ...
-      test.json
-    train/
-      img2.json
-      img2.png
-      ...
-      train.json
-    train_whole/
-      img2.png
-      ...
-      train.json
-    val/
-      img3.json
-      img3.png
-      ...
-      val.json
-    val_whole/
-      img3.png
-      val.json
+    test
+    test_whole
+    train
+    train_whole
+    val
+    val_whole
   images/
-    test/
-      img1.JPEG
-      ...
-    train/
-      img2.JPEG
-      ...
-    val/
-      img3.JPEG
-      ...
+    test
+    train
+    val
 ```
 
 More details about the datases can be found in [here](https://github.com/TACJu/PartImageNet?tab=readme-ov-file)
