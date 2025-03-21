@@ -21,7 +21,9 @@ Weakly-supervised Part Segmentation (WPS) setting (as shown in the figure above)
  - pytorch >= 1.12.1
  - lightning
  - segmentation_models_pytorch
- - segment_anything 
+ - segment_anything
+ - tensorboard
+ - tensorboardX
 ```
 
 Clone the repository locally:
@@ -30,5 +32,78 @@ Clone the repository locally:
 git clone https://github.com/xjwu1024/WPS-SAM.git
 ```
 
+### Data Preparation
+
+Download and extract PartImageNet dataset from [here](https://huggingface.co/datasets/turkeyju/PartImageNet/blob/main/PartImageNet_Seg.zip) The directory structure is expected to be:
+
+```
+/path/to/PartImageNet/
+  annotations/
+    test/
+      img1.json
+      img1.png
+      ...
+      test.json
+    test_whole/
+      img1.png
+      ...
+      test.json
+    train/
+      img2.json
+      img2.png
+      ...
+      train.json
+    train_whole/
+      img2.png
+      ...
+      train.json
+    val/
+      img3.json
+      img3.png
+      ...
+      val.json
+    val_whole/
+      img3.png
+      val.json
+  images/
+    test/
+      img1.JPEG
+      ...
+    train/
+      img2.JPEG
+      ...
+    val/
+      img3.JPEG
+      ...
+```
+
+More details about the datases can be found in [here](https://github.com/TACJu/PartImageNet?tab=readme-ov-file)
+
+### Train
+
+To train WPS-SAM on PartImageNet run:
+
+```
+python train.py
+```
+
+### Evaluation
+
+```
+python eval.py
+```
+
+## Citation
+
+If you use PPT or this repository in your work, please cite:
+
+@inproceedings{wu2024wps,
+  title={WPS-SAM: Towards Weakly-Supervised Part Segmentation with Foundation Models},
+  author={Wu, Xin-Jian and Zhang, Ruisong and Qin, Jie and Ma, Shijie and Liu, Cheng-Lin},
+  booktitle={European Conference on Computer Vision},
+  pages={314--333},
+  year={2024},
+  organization={Springer}
+}
 
 
