@@ -51,7 +51,7 @@ Download and extract PartImageNet dataset from [here](https://huggingface.co/dat
     val
 ```
 
-More details about the datases can be found in [here](https://github.com/TACJu/PartImageNet?tab=readme-ov-file)
+More details about the dataset can be found in [here](https://github.com/TACJu/PartImageNet?tab=readme-ov-file)
 
 ### Train
 
@@ -69,7 +69,7 @@ python eval.py
 
 ## Citation
 
-If you use PPT or this repository in your work, please cite:
+If you use WPS-SAM or this repository in your work, please cite:
 ```
 @inproceedings{wu2024wps,
   title={WPS-SAM: Towards Weakly-Supervised Part Segmentation with Foundation Models},
