@@ -96,7 +96,7 @@ python eval.py
 ## Citation
 
 If you use PPT or this repository in your work, please cite:
-
+```
 @inproceedings{wu2024wps,
   title={WPS-SAM: Towards Weakly-Supervised Part Segmentation with Foundation Models},
   author={Wu, Xin-Jian and Zhang, Ruisong and Qin, Jie and Ma, Shijie and Liu, Cheng-Lin},
@@ -105,5 +105,6 @@ If you use PPT or this repository in your work, please cite:
   year={2024},
   organization={Springer}
 }
-
+```
+and provide a link to this repository as a footnote or a citation.
 
